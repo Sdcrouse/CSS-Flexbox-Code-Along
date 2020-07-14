@@ -21,7 +21,7 @@ associated properties you can use while coding through some examples. Feel free
 to code along using the provided `index.html` and `index.css` files. You can
 test out your page by either running `httpserver` if you are using the
 in-browser Learn IDE, or by right clicking the `index.html` in Finder and
-opening it in a browser.
+opening it in a browser. If you are using a local environment with Windows, you can open the file with `explorer.exe index.html`.
 
 ## Objectives
 1. Setting up a Flex Container
