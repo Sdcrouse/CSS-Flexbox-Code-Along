@@ -385,8 +385,8 @@ flex: <flex-grow value> <flex-shrink value> <flex-basis value>
 
 Alternatively, you can also use `auto`, `initial` and `none`:
 
-* `flex: auto` - equal to `flex-grow: 1; flex-shrink: 1; flex-basis: content;`, elements set to this will grow and shrink evenly to fit the container.
-* `flex: initial` - equal to `flex-grow: 0; flex-shrink: 1; flex-basis: content;`, elements with this setting will shrink to fit, but will not grow beyond their set width or the size of their content.
+* `flex: auto` - equal to `flex-grow: 1; flex-shrink: 1; flex-basis: auto;`, elements set to this will grow and shrink evenly to fit the container.
+* `flex: initial` - equal to `flex-grow: 0; flex-shrink: 1; flex-basis: auto;`, elements with this setting will shrink to fit, but will not grow beyond their set width or the size of their content.
 * `flex: none` - will prevent shrinking and growing, keeping elements to a set size or the size of their content.
 * `flex: 1` - or any value greater than `0` - will act the same as `flex-grow: 1`.
 * `flex: 100px` - or any valid width - will act the same as `flex-basis: 100px`.
