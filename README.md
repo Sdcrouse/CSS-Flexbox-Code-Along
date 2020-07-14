@@ -306,6 +306,8 @@ flex container. Width, in this case, refers to the length of an element in the
 * `flex-basis: --%` - will set the element to a percentage of a container size. Setting `flex-basis` to 50% on one child element, for instance, will cause that child to take up half of a container row. Set to 100%, the child will fill the entire row, causing it to wrap if there are other children in the flex container.
 * `flex-basis: content;` - will set the element's size based on the `width` or `height` properties if they are defined. Otherwise, the element will be sized based on the content inside the element.
 
+> **Special note:** According to [the official documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis), `flex-basis: content;` currently only works in Firefox. Chrome and other browsers do not yet support it.
+
 #### `flex-grow`
 
 The `flex-grow` property specifies how much space the element should take up
